@@ -1,0 +1,7 @@
+{
+  "name": "mock-data-display",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
