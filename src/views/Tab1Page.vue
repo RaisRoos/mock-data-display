@@ -18,7 +18,7 @@ import { IonContent,IonPage } from '@ionic/vue';
 import MainHeader from '@/components/MainHeader.vue';
 import MainDashboard from '@/components/MainDashboard.vue';
 import CompletedInspectionsList from '@/components/CompletedInspectionsList.vue';
-import inspectionsService from '@/services/inspectionsService.js'
+import inspectionsService from '@/services/inspectionsService.ts'
 
 import { ref, onMounted, computed } from 'vue';
 

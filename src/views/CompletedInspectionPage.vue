@@ -48,7 +48,7 @@ import {
 import InspectionReport from '@/components/InspectionReport.vue';
 import InspectionDetails from '@/components/InspectionDetails.vue';
 
-import inspectionsService from '@/services/inspectionsService.js'
+import inspectionsService from '@/services/inspectionsService.ts'
 
 import { ref, onMounted, computed } from 'vue';
 import { useRoute } from 'vue-router';

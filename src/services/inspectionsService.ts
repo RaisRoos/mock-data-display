@@ -1,6 +1,6 @@
-import axios from 'axios'
+import axios, { AxiosInstance, AxiosResponse } from 'axios';
 
-const apiClient = axios.create({
+const apiClient: AxiosInstance = axios.create({
     baseURL: 'https://my-json-server.typicode.com/RaisRoos/inspections',
     withCredentials: false,
     headers: {
@@ -10,7 +10,7 @@ const apiClient = axios.create({
 })
 
 export default {
-    getPage(subURL) {
-        return apiClient.get(subURL)
-    }
+    getPage(subURL: string): Promise<AxiosResponse<any>> {
+        return apiClient.get(subURL);
+    },
 }
